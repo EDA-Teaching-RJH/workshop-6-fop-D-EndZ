@@ -11,6 +11,7 @@ def main():
     #    new_findings.append(rock)
 
     #print(new_findings)
+    
     if "Dust" in sample_bay:
         sample_bay.pop(sample_bay.index("Dust"))
         print("dust removed")
