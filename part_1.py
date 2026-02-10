@@ -6,10 +6,16 @@ def main():
 
     new_findings = []
 
-    for i in range(3):
-        rock = input("Give me a rock ")
-        new_findings.append(rock)
+    #for i in range(3):
+    #    rock = input("Give me a rock ")
+    #    new_findings.append(rock)
 
-    print(new_findings)
+    #print(new_findings)
+    if "Dust" in sample_bay:
+        sample_bay.pop(sample_bay.index("Dust"))
+        print("dust removed")
+        print(sample_bay)
+    else:
+            print("dust is not in list")
 
 main()
